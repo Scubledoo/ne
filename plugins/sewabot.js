@@ -14,7 +14,7 @@ let handler = async (m, { conn }) => {
 
 ☞𝑜𝑤𝑛𝑒𝑟 ❀wa.me/${owner[0]}✵
 
-*Owner ${conn.user.name}*
+
 `,
   buttonText: 'Harga Sesuai Pasaran',
   listType: 2,
