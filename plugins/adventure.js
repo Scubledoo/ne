@@ -32,7 +32,7 @@ let handler = async (m, { conn, usedPrefix, owner }) => {
             let itemrand = [`*Selamat anda mendapatkan item rare yaitu*\n${mythic} Mythic Crate`,`*Selamat kamu mendapatkan item rare yaitu*\n${legendary} Legendary Crate`]
             let rendem = itemrand[Math.floor(Math.random() * itemrand.length)]
             let str = `
-Nyawa mu berkurang -${health * 1} karena Kamu telah berpetualang sampai ${pickRandom(['Jepang', 'Korea', 'Bali', 'Amerika', 'Iraq', 'Arab', 'Pakistan', 'German', 'Finlandia', 'Ke bawa dunia mimpi', 'Ujung dunia', 'Mars', 'Zimbabwe', 'Bulan', 'Pluto', 'Matahari', 'Hatinya dia', '...'])} dan mendapatkan
+Nyawa mu berkurang -${health * 1} karena Kamu telah berpetualang sampai ${pickRandom(['Jepang', 'Korea', 'Bali', 'Amerika', 'Iraq', 'Arab', 'Pakistan', 'German', 'Finlandia', 'Ke bawa dunia mimpi', 'Ujung dunia', 'Mars', 'Zimbabwe', 'Bulan', 'Pluto', 'Matahari', 'Hatinya dia', 'nether','the end','ujung makanan','rusia'])} dan mendapatkan
 *exp:* ${exp} 
 *uang:* ${uang}
 *tiketcoin:* 1
